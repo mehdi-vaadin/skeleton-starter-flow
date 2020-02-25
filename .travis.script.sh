@@ -8,4 +8,5 @@
 
 # Exclude the bower_components and node_modules from Sonar analysis
 
+mvn com.github.eirslett:frontend-maven-plugin:1.7.6:install-node-and-npm -DnodeVersion="v12.14.0"
 mvn -B -e -V clean verify
