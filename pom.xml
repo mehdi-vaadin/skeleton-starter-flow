@@ -195,6 +195,9 @@
                 <groupId>com.vaadin</groupId>
                 <artifactId>vaadin-maven-plugin</artifactId>
                 <version>${vaadin.version}</version>
+                <configuration>
+                    <require.home.node>true</require.home.node>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
