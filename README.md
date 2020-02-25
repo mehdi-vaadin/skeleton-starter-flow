@@ -14,3 +14,4 @@ If you want to run your app locally in the production mode, run `mvn jetty:run -
 
 For a full Vaadin application example, there are more choices available also from [vaadin.com/start](https://vaadin.com/start) page.
 
+Test
